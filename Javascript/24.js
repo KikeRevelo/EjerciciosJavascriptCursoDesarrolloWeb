@@ -26,7 +26,32 @@ const carrito=[
 
 
 
-for(let i=0; i< carrito.length; i++){
-    console.log(carrito[i].nombre)
-    }
+ for(let i=0; i< carrito.length; i++){
+     console.log(carrito[i].nombre)
+     }
  
+    //WHILE
+
+    // let i=1;
+    //  while(i<=100){
+
+    //      if(i%2===0){ 
+    //    console.log(`El numero ${i} es un PAR`)
+     
+    //  }else{
+    //        console.log(`El numero ${i} es un iMPAR`)
+    //     }
+    //           i++;
+    //  }
+
+    //DO WHILE al menos una vez se ejecuta
+
+    let i=100;
+    do{
+        console.log(i);
+
+        i++;
+    }while(i<10);
+
+
+    
